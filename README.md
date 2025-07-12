@@ -23,10 +23,3 @@ A responsive Random Quote Machine built with React. This project was built to co
 ## freeCodeCamp User Stories
 
 ✅ #1–11: All required user stories are implemented and tests pass.
-
-## Setup
-
-Include this script tag in `index.html` to load the FCC test suite:
-
-```html
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
