@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './index.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 const QUOTE_API = "https://api.api-ninjas.com/v1/quotes"; // You can change the category if needed
-const API_KEY = "xCFTeXHjGNnI4HdtP+H93A==sgbFhVP7zfZtPwNK";
+
 
 function App() {
   const [quote, setQuote] = React.useState({ text: '', author: '' });
