@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#background-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s ease; 
+}
+
+#quote-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 50%; 
+  max-width: 400px; 
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+#quote-box h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#quote-box h2 {
+  font-size: 1.2rem;
+  color: gray;
+  margin-bottom: 1.5rem;
+}
+
+
+
+#quote-box a:hover {
+  opacity: 0.8; 
+}
+#quote-controls {
+  display: flex;
+  justify-content: space-between; /* Place button on the far left and social buttons on the far right */
+  align-items: center; /* Align items vertically */
+  width: 100%;
+}
+
+#new-quote {
+  background-color: inherit; 
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0;
+  flex: 0 0 auto; /* Ensure the button stays on the far left */
+}
+
+#button:hover {
+  opacity: 0.8; 
+}
+
+.social-buttons {
+  color:white;
+  display: flex;
+  align-items: left;
+  gap: 1rem; /* Add spacing between social media icons */
+  flex: 0 0 auto; /* Ensure the social buttons stay on the far right */
+}
+.social-buttons a {
+  text-decoration: none;
+  background-color: inherit; 
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+}
+
+#text, #author {
+  transition: opacity 0.5s ease; /* Add a smooth transition effect for text opacity */
+  opacity: 0; /* Start with hidden text */
+}
+
+#text.show, #author.show {
+  opacity: 1; /* Show text with fade-in effect */
+}
