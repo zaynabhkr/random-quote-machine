@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './index.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 const QUOTE_API = "https://api.api-ninjas.com/v1/quotes"; // You can change the category if needed
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 
 function App() {
