@@ -1,7 +1,7 @@
 
 # Random Quote Machine
 
-A responsive Random Quote Machine built with React. This project was built to complete the [freeCodeCamp Front End Libraries Certification](https://www.freecodecamp.org/learn/front-end-development-libraries/). It displays random quotes and authors, and allows users to tweet the current quote.
+A responsive Random Quote Machine built with React. It displays random quotes and authors, and allows users to tweet the current quote.
 
 ## Features
 
